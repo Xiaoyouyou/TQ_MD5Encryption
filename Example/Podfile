@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TQ_MD5Encryption_Example' do
+  pod 'TQ_MD5Encryption', :path => '../'
+
+  target 'TQ_MD5Encryption_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
