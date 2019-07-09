@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E19986D70ED7AF20DB8B1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0AD31CB7C0A0C6A4DEEEDA0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09E19986D70ED7AF20DB8B1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0AD31CB7C0A0C6A4DEEEDA0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TQ_MD5Encryption_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQ_MD5Encryption_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812EEA0431E8BE10A4DF0754 /* Pods-TQ_MD5Encryption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQ_MD5Encryption_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TQ_MD5Encryption_Tests/Pods-TQ_MD5Encryption_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97600CAA9E4449FD57221D4F /* TQ_MD5Encryption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TQ_MD5Encryption.podspec; path = ../TQ_MD5Encryption.podspec; sourceTree = "<group>"; };
+		97600CAA9E4449FD57221D4F /* TQ_MD5Encryption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TQ_MD5Encryption.podspec; path = ../TQ_MD5Encryption.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6BB7841F55AF64824963290 /* Pods-TQ_MD5Encryption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQ_MD5Encryption_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TQ_MD5Encryption_Tests/Pods-TQ_MD5Encryption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A69EE3FC011BE6E3F6255B /* Pods_TQ_MD5Encryption_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQ_MD5Encryption_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5212398BFEE954AB32F52F2 /* Pods-TQ_MD5Encryption_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQ_MD5Encryption_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TQ_MD5Encryption_Example/Pods-TQ_MD5Encryption_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -508,7 +509,7 @@
 				GCC_PREFIX_HEADER = "TQ_MD5Encryption/TQ_MD5Encryption-Prefix.pch";
 				INFOPLIST_FILE = "TQ_MD5Encryption/TQ_MD5Encryption-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -524,7 +525,7 @@
 				GCC_PREFIX_HEADER = "TQ_MD5Encryption/TQ_MD5Encryption-Prefix.pch";
 				INFOPLIST_FILE = "TQ_MD5Encryption/TQ_MD5Encryption-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

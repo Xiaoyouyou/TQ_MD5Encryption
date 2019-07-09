@@ -7,6 +7,7 @@
 //
 
 #import "TQ_MD5EncryptionViewController.h"
+#import "QWSMD5Encryption.h"
 
 @interface TQ_MD5EncryptionViewController ()
 
@@ -18,7 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString * str = [[QWSMD5Encryption sharedMD5Encryption] md5:@"lxyshige henren"];
+    NSLog(@"输出的字符串是：%@",str);
 }
+
 
 - (void)didReceiveMemoryWarning
 {

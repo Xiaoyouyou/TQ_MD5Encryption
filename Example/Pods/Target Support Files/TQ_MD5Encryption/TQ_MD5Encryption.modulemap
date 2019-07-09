@@ -1,0 +1,6 @@
+framework module TQ_MD5Encryption {
+  umbrella header "TQ_MD5Encryption-umbrella.h"
+
+  export *
+  module * { export * }
+}

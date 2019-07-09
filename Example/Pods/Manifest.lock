@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TQ_MD5Encryption (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TQ_MD5Encryption (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TQ_MD5Encryption:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TQ_MD5Encryption: c1d69dc4b495d44eada965de143910e9c7591424
+
+PODFILE CHECKSUM: 0cd4d540bae177540f44930d822acc6e144c776a
+
+COCOAPODS: 1.5.3
